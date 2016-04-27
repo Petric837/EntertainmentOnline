@@ -19,3 +19,24 @@ c:\users\joe\documents\visual studio 2015\Projects\EntertainmentOnline\Entertain
 c:\users\joe\documents\visual studio 2015\Projects\EntertainmentOnline\EntertainmentOnline\obj\Debug\EntertainmentOnline.csprojResolveAssemblyReference.cache
 c:\users\joe\documents\visual studio 2015\Projects\EntertainmentOnline\EntertainmentOnline\obj\Debug\EntertainmentOnline.dll
 c:\users\joe\documents\visual studio 2015\Projects\EntertainmentOnline\EntertainmentOnline\obj\Debug\EntertainmentOnline.pdb
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\csc.exe
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\vbc.exe
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\VBCSCompiler.exe
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\EntertainmentOnline.dll.config
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\EntertainmentOnline.dll
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\EntertainmentOnline.pdb
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\MySql.Data.dll
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\obj\Debug\EntertainmentOnline.csprojResolveAssemblyReference.cache
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\obj\Debug\EntertainmentOnline.dll
+C:\Users\Joe\Documents\WindowsProgramming\Final\EntertainmentOnline\obj\Debug\EntertainmentOnline.pdb

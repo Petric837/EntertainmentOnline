@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="Content/bootstrap.min.css"/>
     <script src="Scripts/bootstrap.min.js"></script>
     <link rel="stylesheet" href="Content/bootstrap-theme.min.css"/>
+    <style>
+        table, th, td {
+            border:2px solid black;
+            border-collapse:collapse;
+        }
+        td, th {padding: 10px;}
+    </style>
 </head>
 
 
@@ -24,6 +31,8 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="HomePage.aspx">Home</a></li>
+                    <li><a href="ManageUsers.aspx">Manage Users</a></li>
+                    <li><a href="HomePage.aspx">Manage Rentals</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
