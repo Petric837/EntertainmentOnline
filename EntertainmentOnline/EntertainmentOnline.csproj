@@ -70,9 +70,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ManageUsers.aspx" />
+    <Content Include="Final\Add-Edit-Rental.aspx" />
+    <Content Include="Final\Checkout.aspx" />
+    <Content Include="Final\EditUser.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Final\Login.aspx" />
+    <Content Include="Final\LogOut.aspx" />
+    <Content Include="Final\ManageRentals.aspx" />
+    <Content Include="Final\ManageUsers.aspx" />
     <Content Include="packages.config" />
-    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Final\Scripts\jquery-1.9.1.min.map" />
+    <None Include="Properties\PublishProfiles\File System.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -81,43 +89,91 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="HomePage.aspx" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Final\Content\bootstrap-theme.css" />
+    <Content Include="Final\Content\bootstrap-theme.min.css" />
+    <Content Include="Final\Content\bootstrap.css" />
+    <Content Include="Final\Content\bootstrap.min.css" />
+    <Content Include="Final\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Final\HomePage.aspx" />
+    <Content Include="Final\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Final\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Final\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Final\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Final\Content\bootstrap.min.css.map" />
+    <Content Include="Final\Content\bootstrap.css.map" />
+    <Content Include="Final\Content\bootstrap-theme.min.css.map" />
+    <Content Include="Final\Content\bootstrap-theme.css.map" />
     <Content Include="MasterPage.Master" />
-    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.js" />
-    <Content Include="SignUp.aspx" />
+    <None Include="Final\Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Final\Scripts\bootstrap.js" />
+    <Content Include="Final\Scripts\bootstrap.min.js" />
+    <Content Include="Final\Scripts\jquery-1.9.1.js" />
+    <Content Include="Final\Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Final\ShoppingCart.aspx" />
+    <Content Include="Final\SignUp.aspx" />
+    <Content Include="Final\TechnicalDoc.aspx" />
+    <Content Include="Final\Unauthorized.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Final\Add-Edit-Rental.aspx.cs">
+      <DependentUpon>Add-Edit-Rental.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final\Add-Edit-Rental.aspx.designer.cs">
+      <DependentUpon>Add-Edit-Rental.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Final\Checkout.aspx.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final\Checkout.aspx.designer.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseConnection.cs" />
-    <Compile Include="HomePage.aspx.cs">
+    <Compile Include="Final\EditUser.aspx.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final\EditUser.aspx.designer.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Final\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HomePage.aspx.designer.cs">
+    <Compile Include="Final\HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ManageUsers.aspx.cs">
+    <Compile Include="Final\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Final\LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final\LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Final\ManageRentals.aspx.cs">
+      <DependentUpon>ManageRentals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final\ManageRentals.aspx.designer.cs">
+      <DependentUpon>ManageRentals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Final\ManageUsers.aspx.cs">
       <DependentUpon>ManageUsers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ManageUsers.aspx.designer.cs">
+    <Compile Include="Final\ManageUsers.aspx.designer.cs">
       <DependentUpon>ManageUsers.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
@@ -128,12 +184,33 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SignUp.aspx.cs">
+    <Compile Include="Final\ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final\ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Final\SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SignUp.aspx.designer.cs">
+    <Compile Include="Final\SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Final\TechnicalDoc.aspx.cs">
+      <DependentUpon>TechnicalDoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final\TechnicalDoc.aspx.designer.cs">
+      <DependentUpon>TechnicalDoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Final\Unauthorized.aspx.cs">
+      <DependentUpon>Unauthorized.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final\Unauthorized.aspx.designer.cs">
+      <DependentUpon>Unauthorized.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
